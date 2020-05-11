@@ -12,7 +12,7 @@
 int main(int argc, char **argv){
   double *f= calloc(S, sizeof(double));
   for(int i= 0; i<= argc; i++){
-    f[i]= atof(argv[i]);
+  	f[i]= atof(argv[i]);
   };
   return 0;
 };
@@ -22,5 +22,5 @@ from sys import argv
 def main():
 f= []
 for i in argv:
-  f.appende(float(argv[i]))
+    f.appende(float(argv[i]))
 ```
