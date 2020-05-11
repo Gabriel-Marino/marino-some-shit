@@ -2,20 +2,20 @@
 ```C
 #include <stdio.h>
 int main(){
-    printf("Hello World!");
+    printf("Hello World!\n");
     return 0;
 };
 ```
 ```Python
 def main():
-    print('Hello World!')
+    print("Hello World!")
 
 if __name__ == "__main__":
     main()
 ```
 ```JavaScript
 function main() {
-    console.log('Hello World!')
+    console.log("Hello World!")
 }
 
 main()
