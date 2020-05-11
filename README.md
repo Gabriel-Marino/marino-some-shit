@@ -4,6 +4,9 @@
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/square.gif)
 
 ```C
+#include <stdlib.h>
+#include <stdio.h>
+
 #define S 10e15
 
 int main(int argc, char **argv){
@@ -15,6 +18,7 @@ int main(int argc, char **argv){
 };
 ```
 ```Python
+from sys import argv
 def main():
 f= []
 for i in argv:
