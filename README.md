@@ -12,7 +12,7 @@
 int main(int argc, char **argv){
   double *f= calloc(S, sizeof(double));
   for(int i= 0; i<= argc; i++){
-  	f[i]= atof(argv[i]);
+    f[i]= atof(argv[i]);
   };
   return 0;
 };
