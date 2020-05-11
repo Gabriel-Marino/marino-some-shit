@@ -14,3 +14,9 @@ int main(int argc, char **argv){
   return 0;
 };
 ```
+```Python
+def main():
+f= []
+for i in argv:
+  f.appende(float(argv[i]))
+```
