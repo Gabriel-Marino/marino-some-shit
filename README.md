@@ -23,6 +23,7 @@ fuction main() {
 
 main()
 ```
+```Python
 {
  "cells": [
   {
@@ -68,6 +69,7 @@ main()
  "nbformat": 4,
  "nbformat_minor": 2
 }
+```
 y=\frac{4}{\pi}\cdot\sum_{n=0}^{\infty}\frac{\sin(f\cdot(2\cdot n+1)\cdot x\cdot\pi)}{2\cdot n+1}
 
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/safe_image.gif)
