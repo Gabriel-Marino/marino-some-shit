@@ -24,3 +24,8 @@ f= []
 for i in argv:
     f.appende(float(argv[i]))
 ```
+```JavaScript
+fuction main(){
+    console.log('Hello World!')
+}
+```
