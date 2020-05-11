@@ -1,4 +1,25 @@
 # Hello World!
+```C
+int main(){
+    printf('Hello World!');
+    return 0;
+};
+void main(){
+    printf('Hello World!');
+};
+```
+```Python
+def main():
+    print('Hello World!')
+```
+```JavaScript
+fuction main() {
+    console.log('Hello World!')
+}
+
+main()
+```
+
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/safe_image.gif)
 
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/square.gif)
@@ -24,11 +45,4 @@ def main():
 f= []
 for i in argv:
     f.appende(float(argv[i]))
-```
-```JavaScript
-fuction main() {
-    console.log('Hello World!')
-}
-
-main()
 ```
