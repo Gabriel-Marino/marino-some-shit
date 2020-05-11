@@ -30,7 +30,7 @@ main()
 int main(int argc, char **argv){
   int i, S= argc;
   double *f= calloc(S, sizeof(double));
-  for(i= 1; i<= argc; i++){
+  for(i= 1; i< argc; i++){
     f[i-1]= atof(argv[i]);
   };
   free(f);
