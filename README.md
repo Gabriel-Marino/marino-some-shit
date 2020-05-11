@@ -26,7 +26,9 @@ for i in argv:
     f.appende(float(argv[i]))
 ```
 ```JavaScript
-fuction main(){
+fuction main() {
     console.log('Hello World!')
 }
+
+main()
 ```
