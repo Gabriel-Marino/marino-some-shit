@@ -23,6 +23,9 @@ fuction main() {
 
 main()
 ```
+```math
+f= \frac{4}{\pi}\dot\sum_{n=0}^{\infinity}
+```
 
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/safe_image.gif)
 
