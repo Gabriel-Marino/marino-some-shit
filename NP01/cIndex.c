@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define S 10e8
+#define S 100000000
 
 int main(int argc, char **argv){
     printf("Hello World!\n");
