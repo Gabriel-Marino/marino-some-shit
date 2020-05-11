@@ -19,6 +19,7 @@ int main(int argc, char **argv){
 ```
 ```Python
 from sys import argv
+
 def main():
 f= []
 for i in argv:
