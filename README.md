@@ -23,8 +23,6 @@ main()
 
 ![](https://github.com/Gabriel-Marino/testgit/blob/master/safe_image.gif)
 
-![](https://github.com/Gabriel-Marino/testgit/blob/master/square.gif)
-
 ```C
 #include <stdlib.h>
 #include <stdio.h>
@@ -47,3 +45,5 @@ f= []
 for i in argv:
     f.appende(float(argv[i]))
 ```
+
+![](https://github.com/Gabriel-Marino/testgit/blob/master/square.gif)
