@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define S 100000000
-
 int main(int argc, char **argv){
     printf("Hello World!\n");
+    int i, S= argc;
     double *f= calloc(S, sizeof(double));
-    int i;
 
     for (i= 1; i< argc; i++){
         f[i-1]= atof(argv[i]);
