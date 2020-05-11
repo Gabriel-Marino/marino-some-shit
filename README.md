@@ -34,6 +34,7 @@ int main(int argc, char **argv){
   for(int i= 0; i<= argc; i++){
     f[i]= atof(argv[i]);
   };
+  free(f);
   return 0;
 };
 ```
