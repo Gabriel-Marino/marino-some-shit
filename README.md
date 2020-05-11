@@ -14,7 +14,7 @@ if __name__ == "__main__":
     main()
 ```
 ```JavaScript
-fuction main() {
+function main() {
     console.log('Hello World!')
 }
 
