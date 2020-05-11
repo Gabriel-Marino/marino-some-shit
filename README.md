@@ -23,7 +23,7 @@ fuction main() {
 
 main()
 ```
-```Python
+```ipynb
 {
  "cells": [
   {
