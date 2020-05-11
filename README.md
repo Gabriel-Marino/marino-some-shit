@@ -27,11 +27,10 @@ main()
 #include <stdlib.h>
 #include <stdio.h>
 
-#define S 10e15
-
 int main(int argc, char **argv){
+  int i, S= argc;
   double *f= calloc(S, sizeof(double));
-  for(int i= 0; i<= argc; i++){
+  for(i= 0; i<= argc; i++){
     f[i]= atof(argv[i]);
   };
   free(f);
