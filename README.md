@@ -28,10 +28,10 @@ main()
 #include <stdio.h>
 
 int main(int argc, char **argv){
-  int i, S= argc;
-  double *f= calloc(S, sizeof(double));
+  int i;
+  double *f = calloc(argc, sizeof(double));
   for(i= 1; i< argc; i++){
-    f[i-1]= atof(argv[i]);
+    f[i-1] = atof(argv[i]);
   };
   free(f);
   return 0;
@@ -41,7 +41,7 @@ int main(int argc, char **argv){
 from sys import argv
 
 def main():
-f= []
+f = []
 for i in argv:
     f.appende(float(argv[i]))
 ```
