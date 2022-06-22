@@ -5,15 +5,15 @@ def main():
 #        print('Para executar o programa:\n python3 fatorial.py "número"')
 #        exit(1)
     n= int(sys.argv[1])
-    fator= fatorial(n)
-    print('O fatorial de {} é {}'.format(n, fator))
+    fact= factorial(n)
+    print('the factorial of {} is {}'.format(n, fact))
 
-def fatorial(n):
+def factorial(n):
     fat= 0
     if n == 0:
         fat= 1
     else:
-        fat= n*fatorial(n-1)
+        fat= n*factorial(n-1)
     return fat
     
 if __name__ == "__main__":

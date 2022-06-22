@@ -18,6 +18,7 @@ def main():
     4.0
     '''
 
+    path = ""
     seed = rng.seed(int(argv[2])) if len(argv) == 3 else rng.seed(time_NULL)    #   Python ternary operator
     n = float(argv[1])
 
@@ -43,7 +44,7 @@ def main():
     plt.gca().set_aspect('equal', adjustable= 'box')
     plt.gca().add_patch(plt.Circle((0, 0), radius= 1, fill= False, linewidth= 0.42))
     plt.text(-1, 1, 'The estimate valeu of pi is {}' .format(p), fontsize= 6.9, horizontalalignment= 'left', verticalalignment= 'bottom')
-    plt.savefig("/mnt/c/Users/Gcmar/Onedrive/Área de Trabalho/pi.pdf", bbox_inches= "tight", transparent= True)
+    plt.savefig(path, bbox_inches= "tight", transparent= True)
 
 if __name__ == "__main__":
     main()

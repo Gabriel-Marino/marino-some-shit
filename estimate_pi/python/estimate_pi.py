@@ -8,7 +8,7 @@ def main():
     pi= estimate_pi(n)
     print("The estimate value of pi is {}" .format(pi))
 
-def plot(pi):
+def plot(pi, path=""):
     plt.xlim(-1, 1)
     plt.ylim(-1, 1)
     plt.xticks(np.arange(-1, 1.5, 0.5))
@@ -16,7 +16,7 @@ def plot(pi):
     plt.gca().set_aspect('equal', adjustable= 'box')
     plt.gca().add_patch(plt.Circle((0, 0), radius= 1, fill= False, linewidth= 0.42))
     plt.text(-1, 1, 'The estimate valeu of pi is {}' .format(pi), fontsize= 6.9, horizontalalignment= 'left', verticalalignment= 'bottom')
-    plt.savefig("/mnt/c/Users/Gcmar/Onedrive/Área de Trabalho/programming/piton/estimate_pi/pi.pdf", bbox_inches= "tight", transparent= True)
+    plt.savefig(path, bbox_inches= "tight", transparent= True)
 
 def estimate_pi(n):
     total_pt= 0
