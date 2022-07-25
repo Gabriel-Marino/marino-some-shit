@@ -16,7 +16,10 @@ fact n = product [1..n]
 ```JavaScript
 function fact(num)
 {
-    return new Array(num).fill(0).map((_, i) => i+1).reduce((num, fat) => fat *= num);
+    return new Array(num+1).fill(0).map((_, i) => i+1).reduce((num, fat, ind, arr) => {
+      if (ind === arr.length - 1) return Math.round(fat *= num/arr[arr.length-1]);
+      return fat *= num;
+    });
 }
 ```
 
