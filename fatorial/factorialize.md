@@ -11,12 +11,24 @@ end
 (0..172).each do |num|
     p "The factorial of #{num} is #{fact(num)}."
 end
+
+def fact(num)
+    fat = 1
+    (1..num).each do |n|
+        fat *= n
+    end
+    fat
+end
 ```
 
 ```Haskell
-fact num = product [1..num]
+fact :: Integer -> Integer
+fact number = product [1..number]
 
-map fact [1..172]
+fact2Str :: Integer -> String
+fact2Str number = "The factorial of " ++ show number ++ " is " ++ show (fact number) ++ "."
+
+main = mapM_ print(map fact2Str [1..172])
 ```
 
 ```JavaScript
