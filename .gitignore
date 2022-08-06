@@ -1,3 +1,6 @@
+*.json
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++,haskell,java,lua,node,python,r,ruby,rust
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,haskell,java,lua,node,python,r,ruby,rust
 
