@@ -20,7 +20,8 @@ while True:
 
     system('clear')     #   limpa o console antes de imprimir dados novos.
     print(ctime())      #   Imprime a data e hora atual.
-    print("Foram apuradas {}% urnas.".format(poll_percentage))
+    print("Última atualização: {}".format(json_data['ht']))                                                                             #   Emprime o momento da última atualização enviada pelo TSE.
+    print("Foram apuradas {}% urnas.".format(poll_percentage))                                                                          #   Emprime a quantidade de urnas que já foram apuradas em porcentagem.
     print(DataFrame(list(zip(sep_data[0][0], sep_data[1][0], sep_data[2][0])), columns=['Candidato', '# votos', 'Porcentagem']))        #   Cria a tabela para mostrar os dados mais organizadamente.
 
-    system('kill -9 {}'.format(getpid())) if poll_percentage >= 99 else sleep(60)    #   Para o laço caso tenha apurado 99% das urnas, caso contrário espera por 5 minutos antes de imprimir os dados novos.
+    system('kill -9 {}'.format(getpid())) if poll_percentage >= 99 else sleep(300)    #   Para o laço caso tenha apurado 99% das urnas, caso contrário espera por 5 minutos antes de imprimir os dados novos.
