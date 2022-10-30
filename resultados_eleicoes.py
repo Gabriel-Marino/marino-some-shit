@@ -9,7 +9,7 @@ from time import sleep, ctime
 
 while True:
     json_data = loads(get("https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json").content)  #   Solicita os dados dos candidatos a presidência da API do TSE-BR.
-    poll_percentage = float(json_data['pvvc'].replace(',', '.'))/100
+    poll_percentage = float(json_data['pst'].replace(',', '.'))
     sep_data = [
         [[], 'nm'],     #   candidatos.
         [[], 'vap'],    #   número de votos.
