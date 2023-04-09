@@ -4,7 +4,7 @@
 -}
 isPrime :: Integer -> Bool
 isPrime number = "The number:" ++ show number ++ "is a Prime number? " ++ show result ++ "."
-    where result = if number < 2 || number % 2 == 0 && number > 2 then False else length filter (\denominator -> number `mod` denominator == 0) [2..number/2] < 2
+    where result = if number < 2 || number `mod` 2 == 0 && number > 2 then False else length (filter (\denominator -> number `mod` denominator == 0) [2..number/2]) < 2
 
 
 {-
